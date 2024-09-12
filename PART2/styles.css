@@ -1,0 +1,130 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    margin-bottom: 20px;
+}
+
+/* Set page width and left margin */
+body {
+    width: 960px;
+    margin: 0 0 0 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul ul {
+    margin-left: 40px; /* Indent sublinks */
+}
+
+ul li {
+    margin-bottom: 10px; /* Add space between vertical links */
+}
+
+/* Solid red underline for links */
+ul li a {
+    color: #CC1C0D;
+    text-decoration: none;
+    border-bottom: 1px solid #CC1C0D; /* Solid red underline */
+}
+
+.our-solutions ul {
+    list-style: disc;
+    margin-left: 50px;
+}
+
+/* Headings Styling */
+h1, h2 {
+    color: #CC1C0D; /* Red text color */
+    border: 1px solid #929CA4; /* Dark grey border */
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #DFE3E6; /* Light grey background */
+}
+
+h2 {
+    color: #CC1C0D; /* Red text color */
+}
+
+/* Main Page Logo Images */
+#vprospect img,
+#vconvert img,
+#vretain img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* About Us Page Bio Styling */
+section {
+    margin-bottom: 20px;
+}
+
+
+
+.team-image img {
+    float: left;
+    width: 75px;
+    height: 100px;
+    border: 2px solid #CC1C0D;
+    border-radius: 45%;
+    margin-right: 25px;
+}
+
+.pricing-card {
+    display: inline-block; /* Display pricing cards inline */
+    text-align: center;
+    width: 180px;
+    height: 250px; /* Set a fixed height for all cards */
+    margin-right: 10px;
+    margin-top: 20px;
+    border: 1px solid #929CA4;
+    padding-top: 10px;
+    border-radius: 10px; /* Add rounded corners */
+    vertical-align: top; /* Align cards to the top */
+    padding-bottom: 10px;
+}
+
+.pricing-title{
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.divider1,
+.divider2,
+.divider3,
+.divider4 {
+    border-top: 10px solid ;
+    margin-bottom: 10px;
+}
+
+.divider1 {
+    border-top-color: #CC1C0D;
+}
+
+.divider2 {
+    border-top-color: #37A4A4;
+}
+
+.divider3 {
+    border-top-color: #685288;
+}
+
+.divider4 {
+    border-top-color: #000000;
+}
+/* Bold Solution Titles on Main Page */
+#vprospect::before,
+#vconvert::before,
+#vretain::before {
+    content: '\00a0';
+    font-weight: bold;
+}
